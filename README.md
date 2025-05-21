@@ -1,2 +1,4 @@
 # TNM-G-classification
-medicine, staging for breast cancer
+This work analyses natural language processing tasks for the Lithuanian language. Experiments such as text semantic similarity analysis, classification with prompt generation, structured output and building a classifier are performed. Pathology reports which were used in this paper were obtained from the National Cancer Institute. The goal is to develop algorithms for texts that can correctly classify tumor, lymph node, distant metastasis (TNM) and grade (G). Existing literature and scientific articles on the identification and analysis of TNM were studied. Taking into account the latest, most accurate models, which are also multilingual, Gemma 2, Llama 3 and Phi-4 were chosen to be used and compared. Based on other experiments, it was deduced that creating a classifier overall achieves better results than classification with generated prompts without any fine-tuning or using text similarity even though sometimes the accuracy was quite close.
+# Keywords
+text classification, large language models, breast cancer, tumor, lymph node, distant metastasis, grade.
